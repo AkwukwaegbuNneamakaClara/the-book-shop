@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Computer Books Web Shop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Online Computer Books Web Shop</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="book-list">
+          <!-- Book list will be dynamically generated here -->
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="filters">
+          <!-- Filters will be dynamically generated here -->
+            
+          </div>
+          
+          
+          
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Detailed view modal -->
+  <div class="modal fade" id="book-details-modal" tabindex="-1" role="dialog" aria-labelledby="book-details-modal-label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="book-details-modal-label">Book Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Book details will be dynamically generated here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping cart modal -->
+  <div class="modal fade" id="shopping-cart-modal" tabindex="-1" role="dialog" aria-labelledby="shopping-cart-modal-label"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="shopping-cart-modal-label">Shopping Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Shopping cart details will be dynamically generated here -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
