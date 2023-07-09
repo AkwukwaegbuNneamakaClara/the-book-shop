@@ -1,0 +1,169 @@
+{
+    "books": [
+     
+          {
+            "title": "Responsive Design with Bootstrap",
+            "author": "Silvio Moreto and Matt Lambart",
+            "price": 108,
+            "category": "UX",
+            "description": "A step by step practical course enabling you to nail Bootstraps and make your web design more responsive.",
+            "image": "book26.jpg"
+          },
+          {
+            "title": "Introduction to HTML",
+            "author": "Jane Doe",
+            "price": 301,
+            "category": "HTML",
+            "description": "The book is designed for the Aspring web Design and Developers with a need to understand the HTML in enough detail along with its overview.",
+            "image": "book11.jpg"
+          },
+          {
+            "title": "An Introduction to CSS",
+            "author": "James Johnson",
+            "price": 234,
+            "category": "CSS",
+            "description": "The book covers both the versions: CSS1 and CSS2 and gives a complete understanding of CSS, starting from the basic to the advanced concepts.",
+            "image": "book16.webp"
+          },
+          {
+            "title": "Begin To Code With JavaScript",
+            "author": "Rob Miles",
+            "price": 340,
+            "category": "JavaScript",
+            "description": "The book will try to make you familiar enough with the language to do useful and amusing things with it. On programming language on explaing JavaScript.",
+            "image": "book20.webp"
+          },
+      
+          {
+            "title": "Computer Science Illuminated",
+            "author": "Nell Dalle and John Lewis",
+            "price": 100.00,
+            "category": "UX",
+            "description": "Good computer text book",
+            "image": "book1.jpg"
+          },
+          {
+            "title": "Danny's Computer",
+            "author": "Uncle Amos",
+            "price": 245,
+            "category": "JavaScript",
+            "description": "Interesting children book with free video book gift",
+            "image": "book7.jpg"
+          },
+          {
+            "title": "Basic Computer Course",
+            "author": "S Khan",
+            "price": 321,
+            "category": "HTML",
+            "description": "Free choice of every student",
+            "image": "book3.jpg"
+          },
+          {
+            "title": "Technology Book",
+            "author": "James Johnson",
+            "price": 100,
+            "category": "CSS",
+            "description": "For elementary special need class",
+            "image": "book4.jpg"
+          },
+          {
+
+            "title": "Responsive Design with Bootstrap",
+            "author": "John Smith",
+            "price": 259,
+            "category": "UX",
+            "description": "The book will show you how to wave together strategy and UX design, creating a UX strategy.",
+            "image": "book27.png"
+          },
+          {
+            "title": "HTML - An Introduction To HTML and CSS",
+            "author": "Danny Ajini",
+            "price": 431,
+            "category": "HTML",
+            "description": "The summarise how to do everything with HTLM and CSS and the graphical overview of the HTML and CSS is presented in the book.",
+            "image": "book13.jpg"
+          },
+          {
+            "title": "CSS - An Introduction",
+            "author": "Melinda Fields",
+            "price": 364,
+            "category": "CSS",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+            "image": "book14.jpg"
+          },
+          {
+            "title": "JavaScript - An Introduction",
+            "author": "Emily Williams",
+            "price": 411,
+            "category": "JavaScript",
+            "description": "JavaScript is a lightweight, interpreted programming language. The book is designed for creating network-centric applications also complementary to and integrated.",
+            "image": "book19.png"
+          
+          },
+          {
+            "title": "Grow With Computers",
+            "author": "Smith Mile",
+            "price": 190,
+            "category": "UX",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+            "image": "bookb.jpg"
+          },
+          {
+            "title": "Introduction To Computer",
+            "author": "Doe Mathias",
+            "price": 211,
+            "category": "HTML",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+            "image": "bookc.jpg"
+          },
+          {
+            "title": "CSS - An Introduction",
+            "author": "James Johnson",
+            "price": 249,
+            "category": "CSS",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+            "image": "book3.jpg"
+          },
+          {
+            "title": "Learn To Code With JavaScript",
+            "author": "Williams Jame",
+            "price": 384,
+            "category": "JavaScript",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+            "image": "book21.jpg"
+         },
+         {
+              "title": "A To Z Computer Science",
+              "author": "Sakina Fakhruddin",
+              "price": 422,
+              "category": "UX",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+              "image": "book8.jpg"
+            },
+            {
+              "title": "Intoduction To HTML And HTML Structure",
+              "author": "Karisha Viguo",
+              "price": 165,
+              "category": "HTML",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+              "image": "book12.jpg"
+            },
+            {
+              "title": "The Fable Of The User-Centred Design",
+              "author": "Hakan Vikto",
+              "price": 392,
+              "category": "CSS",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+              "image": "book23.jpg"
+            },
+            {
+              "title": "JavaScript For Beginners",
+              "author": "Mathew Elvis",
+              "price": 309,
+              "category": "JavaScript",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet neque eu blandit scelerisque. Proin id sagittis sem. Mauris consequat purus nec iaculis finibus. Integer auctor ultricies nisi a fringilla.",
+              "image": "book18.webp"
+            }
+    ]
+  }
+  
