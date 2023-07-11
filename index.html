@@ -25,13 +25,29 @@
         <div id="filters">
           <!-- Filters will be dynamically generated here -->
             
+          <div>
+            <button class="filter-option" data-category="all">All</button>
+            <button class="filter-option" data-category="UX">UX</button>
+            <button class="filter-option" data-category="HTML">HTML</button>
+            <button class="filter-option" data-category="CSS">CSS</button>
+            <button class="filter-option" data-category="JavaScript">JavaScript</button>
           </div>
-          
-          
-          
+          <div>
+            <input type="range" id="price-range" min="0" max="500" step="10">
+
+          </div>
+        </div>
         
-      </div>
-    </div>
+        <div>
+          <select id="sort-select">
+            <option value="title-asc">Title (A-Z)</option>
+            <option value="title-desc">Title (Z-A)</option>
+            <option value="price-asc">Price (Low to High)</option>
+            <option value="price-desc">Price (High to Low)</option>
+            <option value="author-asc">Author (A-Z)</option>
+            <option value="author-desc">Author (Z-A)</option>
+          </select>
+        </div>
   </div>
 
   <!-- Detailed view modal -->
