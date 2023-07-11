@@ -53,6 +53,78 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     $('#book-details-modal').modal('show');
   }
+  // Function to add event listeners for filters
+  function addFilterListeners(books) {
+    const filterOptions = document.querySelectorAll('.filter-option');
+    const priceRange = document.getElementById('price-range');
+  
+    // Add event listener for each filter option
+    filterOptions.forEach(option => {
+      option.addEventListener('click', () => {
+        const category = option.dataset.category;
+        const price = priceRange.value;
+        const filteredBooks = filterBooks(books, category, price);
+        generateBookList(filteredBooks);
+      });
+    });
+    // Add event listener for price range input
+  priceRange.addEventListener('input', () => {
+    const category = getSelectedCategory();
+    const price = priceRange.value;
+    priceLabel.textContent = `Price: $0 - $${price}`;
+    const filteredBooks = filterBooks(books, category, price);
+    generateBookList(filteredBooks);
+  });
+
+  }
+  // Function to filter books by category and price
+  function filterBooks(books, category, price) {
+  return books.filter(book => {
+    const isInCategory = category === 'all' || book.category === category;
+    const isInPriceRange = book.price <= price;
+    return isInCategory && isInPriceRange;
+  });
+  }
+
+  
+  // Function to add event listeners for sorting
+  function addSortListeners(books) {
+    const sortSelect = document.getElementById('sort-select');
+
+    sortSelect.addEventListener('change', () => {
+      const sortValue = sortSelect.value;
+      const sortedBooks = sortBooks(books, sortValue);
+      generateBookList(sortedBooks);
+    });
+  }
+  
+  // Function to sort books
+  function sortBooks(books, sortValue) {
+    const sortedBooks = [...books];
+  
+    switch (sortValue) {
+      case 'title-asc':
+        sortedBooks.sort((a, b) => a.title.localeCompare(b.title));
+        break;
+      case 'title-desc':
+        sortedBooks.sort((a, b) => b.title.localeCompare(a.title));
+        break;
+      case 'price-asc':
+        sortedBooks.sort((a, b) => a.price - b.price);
+        break;
+      case 'price-desc':
+        sortedBooks.sort((a, b) => b.price - a.price);
+        break;
+      case 'author-asc':
+        sortedBooks.sort((a, b) => a.author.localeCompare(b.author));
+        break;
+      case 'author-desc':
+        sortedBooks.sort((a, b) => b.author.localeCompare(a.author));
+        break;
+    }
+  
+    return sortedBooks;
+  }
   
   
   // Function to add book to shopping cart
